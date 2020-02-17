@@ -1,0 +1,37 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 40% 40% auto;
+  grid-template-rows: auto 80% auto;
+  max-width: 80hw;
+  margin: 4rem 0;
+}
+
+.metaOne, .metaTwo, .metaThree, .metaFour {
+  font-family: "Operator Mono SSm A", "Operator Mono SSm B";
+  font-weight: 400;
+  font-size: .8rem;
+}
+
+.metaOne {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.metaTwo {
+  grid-column: 3 / span 2;
+  grid-row: 1;
+  justify-self: end;
+}
+
+.metaThree {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  align-self: end;
+}
+
+.metaFour {
+  grid-column: 3 / span 2;
+  grid-row: 3;
+  justify-self: end;
+  align-self: end;
+}

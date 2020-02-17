@@ -1,8 +1,10 @@
+const emoji = require(`gatsby-remark-emoji`)
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Terminal Index`,
+    description: `Approaching exit velocity`,
+    author: `@ericfrommelt`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +13,19 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        name: `posts`,
+        path: `posts`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve('./src/components/layout.js'),
+        },
+        gatsbyRemarkPlugins: [
+          {resolve: 'gatsby-remark-images'}
+        ],
       },
     },
     `gatsby-transformer-sharp`,
