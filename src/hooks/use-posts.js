@@ -1,4 +1,4 @@
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby';
 
 const usePosts = () => {
   const data = useStaticQuery(graphql`
@@ -9,19 +9,25 @@ const usePosts = () => {
             title
             slug
             author
+            emoji
+            tags
+            date(formatString: "MMMM DD, YYYY")
           }
-          excerpt
+          body
         }
       }
     }  
-  `)
+  `);
 
   return data.allMdx.nodes.map(post => ({
     title: post.frontmatter.title,
-    author: post.frontmatter.author,
     slug: post.frontmatter.slug,
-    excerpt: post.excerpt,
-  }))
-}
+    author: post.frontmatter.author,
+    emoji: post.frontmatter.emoji,
+    tags: post.frontmatter.tags,
+    date: post.frontmatter.date,
+    body: post.body,
+  }));
+};
 
 export default usePosts;

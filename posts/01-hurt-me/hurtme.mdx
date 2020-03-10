@@ -4,14 +4,15 @@ slug: hurt-me
 author: Eric Frommelt
 date: 2020-02-10
 emoji: 🍕
-tags: prototype
+tags: youngstown pizza
 ---
 <div style={{
-  gridColumn: `3 / span 2`,
+  gridColumn: `6 / span 6`,
   gridRow: `3`,
   fontFamily: `"Decimal A", "Decimal B"`,
   letterSpacing: `-.6rem`,
   fontSize: `4rem`,
+  marginLeft: `-.6rem`
 }}>
 
   # Please
@@ -19,8 +20,8 @@ tags: prototype
 </div>
 
 <div style={{
-  gridColumn: `3 / span 2`,
-  gridRow: `3`,
+  gridColumn: `6 / span 6`,
+  gridRow: `4`,
   fontFamily: `"Chronicle SSm A", "Chronicle SSm B"`,
   fontSize: `1.2rem`
 }}>
@@ -30,10 +31,11 @@ tags: prototype
 </div>
 
 <div style={{
-  gridColumn: `1 / span 2`,
+  gridColumn: `1 / span 7`,
   gridRow: `2`,
   alignSelf: `center`,
-  padding: `1rem`
+  padding: `1rem`,
+  zIndex: `100`
 }}>
 
   ![pizza](./images/pizza.jpg)
@@ -41,11 +43,23 @@ tags: prototype
 </div>
 
 <div style={{
-  gridColumn: `3 / span 2`,
-  gridRow: `2`,
-  zIndex: `100`
+  gridColumn: `6 / span 6`,
+  gridRow: `2`
 }}>
 
   ![cornersburg](./images/Cornersburg.png)
 
 </div>
+
+<div style={{
+  height: `20rem`,
+  width: `20rem`,
+  borderRadius: `50%`,
+  backgroundColor: `tomato`,
+  mixBlendMode: `overlay`,
+  gridColumn: `4 / span 4`,
+  gridRow: `2`,
+  alignSelf: `center`,
+  zIndex: `900`,
+  margin: `9rem 0 0 1rem`,
+}}></div>

@@ -26,7 +26,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <LoadFonts />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header 
+        style={{
+          marginBottom: `90rem`,
+          fontSize: `4rem`,
+        }}
+        
+        siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,

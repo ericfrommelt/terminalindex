@@ -24,11 +24,17 @@
    <Layout>
      <SEO title="post" />
      <div className={styles.wrapper}>
+      <div className={styles.metaTop}>
+        <div className={styles.metaOne}>{post.frontmatter.date}</div>
+        <div className={styles.metaTwo}>{post.frontmatter.author}</div>
+      </div>
+      <div className={styles.contentWrapper}>
       <MDXRenderer>{post.body}</MDXRenderer>
-      <div className={styles.metaOne}>{post.frontmatter.date}</div>
-      <div className={styles.metaTwo}>{post.frontmatter.author}</div>
-      <div className={styles.metaThree}>{post.frontmatter.tags}</div>
-      <div className={styles.metaFour}>{post.frontmatter.emoji}</div>
+      </div>
+      <div className={styles.metaBottom}>
+        <div className={styles.metaThree}>{post.frontmatter.tags}</div>
+        <div className={styles.metaFour}>{post.frontmatter.emoji}</div>
+      </div>
      </div>
    </Layout>
  )

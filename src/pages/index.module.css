@@ -8,13 +8,17 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
-.metaTop, .metaBottom {
+.metaTop,
+.metaBottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.metaOne, .metaTwo, .metaThree, .metaFour {
+.metaOne,
+.metaTwo,
+.metaThree,
+.metaFour {
   font-family: "Operator Mono SSm A", "Operator Mono SSm B";
   font-weight: 400;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }

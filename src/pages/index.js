@@ -1,10 +1,13 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import usePosts from "../hooks/use-posts"
-import PostPreview from "../components/post-preview"
+import React from 'react'
+import SEO from '../components/seo'
+import Layout from '../components/layout'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
+import usePosts from '../hooks/use-posts'
+import PostPreview from '../components/post-preview'
+import styles from './index.module.css'
 
-const IndexPage = () => {
+
+export default () => {
   const posts = usePosts();
 
   return (
@@ -14,8 +17,5 @@ const IndexPage = () => {
         <PostPreview key={post.slug} post={post} />
       ))}
     </Layout>
-  )
-
-}
-
-export default IndexPage
+  );
+};

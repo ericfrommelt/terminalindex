@@ -1,6 +1,5 @@
 .wrapper {
   max-width: 80hw;
-  margin: 4rem 0;
 }
 
 .contentWrapper {
@@ -8,13 +7,28 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
-.metaTop, .metaBottom {
+.metaTop,
+.metaBottom {
   display: flex;
   justify-content: space-between;
+  padding: 1rem 0;
 }
 
-.metaOne, .metaTwo, .metaThree, .metaFour {
+.metaLine {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.metaTop {
+  border-top: 1px solid black;
+  margin-bottom: 6rem;
+}
+
+.metaOne,
+.metaTwo,
+.metaThree,
+.metaFour {
   font-family: "Operator Mono SSm A", "Operator Mono SSm B";
   font-weight: 400;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
