@@ -14,6 +14,7 @@
         emoji
         tags
         date(formatString: "MMMM DD, YYYY")
+        published
       }
       body
     }

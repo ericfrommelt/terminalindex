@@ -3,7 +3,10 @@ import { graphql, useStaticQuery } from 'gatsby';
 const usePosts = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMdx {
+      allMdx(
+        sort: { fields: [frontmatter___date], order: DESC }
+        filter: { frontmatter: { published: { eq: true }}}
+      ) {
         nodes {
           frontmatter {
             title
@@ -12,6 +15,7 @@ const usePosts = () => {
             emoji
             tags
             date(formatString: "MMMM DD, YYYY")
+            published
           }
           body
         }
