@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <LoadFonts />
       <Header 
         style={{
-          marginBottom: `90rem`,
+          marginBottom: `90em`,
           fontSize: `4rem`,
         }}
         
@@ -36,8 +36,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: `90hw`,
-          padding: `0 1.0875rem 1.45rem`,
+          maxWidth: `100hw`,
         }}
       >
         <main>{children}</main>
@@ -50,9 +49,7 @@ const Layout = ({ children }) => {
             fontSize: `.8rem`
           }}
         >
-          © {new Date().getFullYear()} Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          Wear a mask.
         </footer>
       </div>
     </>

@@ -24,7 +24,14 @@ module.exports = {
           default: require.resolve('./src/components/layout.js'),
         },
         gatsbyRemarkPlugins: [
-          {resolve: 'gatsby-remark-images'}
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              linkImagesToOriginal: false,
+              maxWidth: 3000,
+              wrapperStyle: result => `width: 100%;margin-left: 0;`,
+            }
+          }
         ],
       },
     },
