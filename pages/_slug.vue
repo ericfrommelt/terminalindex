@@ -95,12 +95,4 @@
     display: flex;
     justify-content: space-between;
   }
-
-  .prev-link {
-    
-  }
-
-  .next-link {
-    
-  }
 </style>
