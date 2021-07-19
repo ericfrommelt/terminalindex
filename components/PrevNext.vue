@@ -60,6 +60,14 @@
 </script>
 
 <style scoped>
+  .prev-link {
+    margin-left: 2rem;
+  }
+
+  .next-link {
+    margin-right: 2rem;
+  }
+
   .prev-link, .next-link {
     width: 2rem;
     height: 8rem;
@@ -68,21 +76,13 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    opacity: 30%;
+    opacity: .3;
     transition: opacity .1s ease-in;
     border-radius: 2px;
   }
 
   .prev-link:hover, .next-link:hover {
-    opacity: 60%;
-  }
-
-  .prev-link {
-    margin-left: 2rem;
-  }
-
-  .next-link {
-    margin-right: 2rem;
+    opacity: .6;
   }
 
   .arrow {

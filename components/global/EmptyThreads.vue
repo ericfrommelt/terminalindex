@@ -98,7 +98,7 @@
   }
   .d1.active {
     top: -3rem;
-    opacity: 90%;
+    opacity: .9;
   }
 
   .d2 {
@@ -106,7 +106,7 @@
   }
   .d2.active {
     top: -6rem;
-    opacity: 80%;
+    opacity: .8;
   }
 
   .d3 {
@@ -114,7 +114,7 @@
   }
   .d3.active {
     top: -9rem;
-    opacity: 70%;
+    opacity: .7;
   }
 
   .d4 {
@@ -122,7 +122,7 @@
   }
   .d4.active {
     top: -12rem;
-    opacity: 60%;
+    opacity: .6;
   }
 
   .d5 {
@@ -130,7 +130,7 @@
   }
   .d5.active {
     top: -15rem;
-    opacity: 50%;
+    opacity: .5;
   }
 
   .d12 {
@@ -138,7 +138,7 @@
   }
   .d12.active {
     top: 3rem;
-    opacity: 90%;
+    opacity: .9;
   }
 
   .d11 {
@@ -146,7 +146,7 @@
   }
   .d11.active {
     top: 6rem;
-    opacity: 80%;
+    opacity: .8;
   }
 
   .d10 {
@@ -154,7 +154,7 @@
   }
   .d10.active {
     top: 9rem;
-    opacity: 70%;
+    opacity: .7;
   }
 
   .d9 {
@@ -162,7 +162,7 @@
   }
   .d9.active {
     top: 12rem;
-    opacity: 60%;
+    opacity: .6;
   }
 
   .d8 {
@@ -170,7 +170,7 @@
   }
   .d8.active {
     top: 15rem;
-    opacity: 50%;
+    opacity: .5;
   }
 
   .d7 {
@@ -178,7 +178,7 @@
   }
   .d7.active {
     top: 18rem;
-    opacity: 40%;
+    opacity: .4;
   }
 
   .d6 {
@@ -186,7 +186,7 @@
   }
   .d6.active {
     top: 21rem;
-    opacity: 30%;
+    opacity: .3;
   }
 
 </style>
