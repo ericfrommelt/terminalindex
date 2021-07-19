@@ -59,5 +59,6 @@ export default {
     background-color: var(--primary-color-light);
     height: 100%;
     display: flex;
+    min-width: 3.2rem;
   }
 </style>
