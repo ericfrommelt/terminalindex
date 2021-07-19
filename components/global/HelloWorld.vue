@@ -34,7 +34,6 @@
   .message {
     cursor: pointer;
     position: relative;
-    z-index: 10000;
   }
 
   h1 {

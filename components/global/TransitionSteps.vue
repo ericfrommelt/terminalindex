@@ -27,6 +27,7 @@
 
   .wrapper {
     cursor: pointer;
+    position: relative;
   }
 
   .wrapper.active {
