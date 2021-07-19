@@ -6,66 +6,66 @@
       @mouseleave="isActive = false"
     >
       <h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d1"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d2"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d3"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d4"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d5"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d6"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d7"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d8"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d9"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d10"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d11"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
-    </div>
-    <div 
-      class="d12"
-      v-bind:class='{ active: isActive }'
-    ><h1>{{ message }}</h1>
+      <div 
+        class="d1"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d2"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d3"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d4"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d5"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d6"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d7"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d8"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d9"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d10"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d11"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
+      <div 
+        class="d12"
+        v-bind:class='{ active: isActive }'
+      ><h1>{{ message }}</h1>
+      </div>
     </div>
   </div>
 </template>
