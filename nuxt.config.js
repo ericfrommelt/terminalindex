@@ -33,7 +33,16 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    'nuxt-gsap-module'
   ],
+
+  gsap: {
+    clubPlugins: {
+      customEase: true,
+      scrambleText: true,
+      splitText: true
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
