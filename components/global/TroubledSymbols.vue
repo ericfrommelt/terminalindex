@@ -3,10 +3,10 @@
     <div>
       <h1 id="text-1">Troubled</h1>
     </div>
-    <div 
-      id="symbol-wrapper"
-      @mouseover="startAnimation"
-      @mouseleave="endAnimation"
+    <div
+      id="troubled-trigger"
+        @mouseover="startAnimation"
+        @mouseleave="endAnimation"
     >
       <svg 
       width="220" 
@@ -75,6 +75,10 @@
 </script>
 
 <style scoped>
+  svg {
+    cursor: pointer;
+  }
+
   h1 {
     font-weight: 400;
     text-transform: uppercase;
@@ -90,5 +94,19 @@
     display: block;
     cursor: pointer;
     margin: 0 8rem;
+  }
+
+  #troubled-trigger {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 4rem;
+  }
+
+  #text-1 {
+    margin-right: 4rem;
+  }
+  
+  #text-1 {
+    margin-right: 4rem;
   }
 </style>

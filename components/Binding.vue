@@ -1,6 +1,6 @@
 <template>
   <div class="binding__wrapper">
-    <h1>
+    <h1 class="title">
       <NuxtLink to="/">
         Terminal Index
       </NuxtLink>
@@ -13,7 +13,7 @@
     align-self: flex-end;
   }
 
-  h1 {
+  .title {
     color: var(--primary-color-dark);
     font-size: 1rem;
     font-weight: 400;
@@ -22,4 +22,5 @@
     transform: rotateZ(180deg);
     padding: 4rem 0;
   }
+
 </style>
