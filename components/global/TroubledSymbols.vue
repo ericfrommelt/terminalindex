@@ -87,6 +87,7 @@
   }
 
   #symbol-wrapper {
+    display: block;
     cursor: pointer;
     margin: 0 8rem;
   }
